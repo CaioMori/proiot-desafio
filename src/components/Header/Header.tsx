@@ -1,25 +1,11 @@
 import Logo from "../../assets/images/logo.svg";
+import HeaderContainer, { ImageBase } from "./HeaderBase";
 
 const Header = () => {
   return (
-    <header
-      style={{
-        display: "flex",
-        justifyContent: "flex-start",
-        alignItems: "center",
-        padding: "1vh 1vw",
-        height: "5vh",
-        backgroundColor: "#164194",
-      }}
-    >
+    <header style={HeaderContainer}>
       <a href="https://www.proiot.com.br/" target="_blank" rel="noreferrer">
-        <img
-          src={Logo}
-          alt="Logo"
-          style={{
-            height: "4vh",
-          }}
-        />
+        <img src={Logo} alt="Logo" style={ImageBase} />
       </a>
     </header>
   );
