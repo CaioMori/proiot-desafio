@@ -1,10 +1,6 @@
 import { Card, CardContent, CardHeader, Divider, Grid } from "@mui/material";
 import { CardContentBase } from "./DataCardBase";
-
-interface DataCardProps {
-  title: string;
-  children?: React.ReactNode;
-}
+import DataCardProps from "./DataCardProps";
 
 const DataCard = (props: DataCardProps) => {
   return (
