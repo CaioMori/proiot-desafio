@@ -7,8 +7,8 @@ const Header = () => {
         display: "flex",
         justifyContent: "flex-start",
         alignItems: "center",
-        padding: "2vh 4vw",
-        height: "7vh",
+        padding: "1vh 1vw",
+        height: "5vh",
         backgroundColor: "#164194",
       }}
     >
@@ -17,7 +17,7 @@ const Header = () => {
           src={Logo}
           alt="Logo"
           style={{
-            height: "5vh",
+            height: "4vh",
           }}
         />
       </a>
