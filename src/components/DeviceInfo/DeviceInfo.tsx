@@ -1,21 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
-
-interface DeviceInfoProps {
-  device: {
-    _id: string;
-    device_name: string;
-    variables: {
-      _id: string;
-      variable_name: string;
-      value: number;
-      unit: string;
-      histories: {
-        timestamp: number;
-        value: number;
-      }[];
-    }[];
-  };
-}
+import DeviceInfoProps from "./DeviceInforProps";
 
 const DeviceInfo = (deviceInfoProps: DeviceInfoProps) => {
   return (
