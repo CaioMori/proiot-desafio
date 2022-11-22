@@ -2,24 +2,7 @@ import DataCard from "../DataCard/DataCard";
 import DeviceInfo from "../DeviceInfo/DeviceInfo";
 import LastValueInfo from "../LastValueInfo/LastValueInfo";
 import { LineChart } from "../LineChard/LineChard";
-
-interface DataReceiverProps {
-  isLoading: boolean;
-  device: {
-    _id: string;
-    device_name: string;
-    variables: {
-      _id: string;
-      variable_name: string;
-      value: number;
-      unit: string;
-      histories: {
-        timestamp: number;
-        value: number;
-      }[];
-    }[];
-  };
-}
+import DataReceiverProps from "./DataReceiverProps";
 
 const DataReceiver = (dataDevicesProps: DataReceiverProps) => {
   return (
