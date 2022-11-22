@@ -1,9 +1,5 @@
 import { Button, Chip, Stack, Typography } from "@mui/material";
-
-interface ActivityMonitorProps {
-  active: boolean;
-  toggleInterval: () => void;
-}
+import ActivityMonitorProps from "./ActivityMonitorProps";
 
 const ActivityMonitor = (activityMonitorProps: ActivityMonitorProps) => {
   return (
