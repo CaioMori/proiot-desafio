@@ -1,6 +1,8 @@
 ## How to start React project
 
 Make sure you have Node.js installed on your computer. If you don't have it, you can download it from [here](https://nodejs.org/en/download/).
+Make sure you have npm installed on your computer. If you don't have it, you can download it from [here](https://www.npmjs.com/get-npm).
+Make sure you have yarn installed on your computer. If you don't have it, you can download it from [here](https://classic.yarnpkg.com/en/docs/install).
 
 ### 1. Go to the project folder
 
@@ -11,13 +13,13 @@ cd proiot-desafio
 ### 2. Install dependencies
 
 ```bash
-npm install
+yarn install
 ```
 
 ### 3. Start the project
 
 ```bash
-npm start
+yarn start
 ```
 
 ### 4. Finally
