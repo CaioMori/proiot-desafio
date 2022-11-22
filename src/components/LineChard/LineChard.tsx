@@ -10,6 +10,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import LineChartProps from "./LineChartProps";
 
 ChartJS.register(
   CategoryScale,
@@ -20,24 +21,6 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-
-interface LineChartProps {
-  isLoading: boolean;
-  chartLabels: string[];
-  timeStamps?: string[];
-  data: dataItems[];
-}
-
-interface dataItems {
-  _id: string;
-  variable_name: string;
-  value: number;
-  unit: string;
-  histories: {
-    timestamp: number;
-    value: number;
-  }[];
-}
 
 const getColorBasedOnString = (string: string) => {
   let hash = 0;

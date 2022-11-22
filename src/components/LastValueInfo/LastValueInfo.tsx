@@ -1,10 +1,5 @@
 import { CircularProgress, Typography } from "@mui/material";
-
-interface LastValueInfoProps {
-  isLoading: boolean;
-  data?: number;
-  unity?: string;
-}
+import LastValueInfoProps from "./LastValueInfoProps";
 
 const LastValueInfo = (props: LastValueInfoProps) => {
   if (props.isLoading) {
