@@ -1,5 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
-import DeviceInfoProps from "./DeviceInforProps";
+import DeviceInfoProps from "./DeviceInfoProps";
 
 const DeviceInfo = (deviceInfoProps: DeviceInfoProps) => {
   return (
